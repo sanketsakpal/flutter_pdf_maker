@@ -1,0 +1,513 @@
+{
+  "status_code": 200,
+  "testId": "d5013767-3fc9-43a4-9f7b-54eafed41a9a",
+  "captureTime": 1684146221010,
+  "uId": "userId",
+  "processed_flag": true,
+  "isComplete": true,
+  "firstName": "firstName",
+  "lastName": "lastName",
+  "gender": "gender",
+  "dateOfBirth": "2023-05-15T10:23:26.095000+00:00",
+  "kit_type": "WEL",
+  "panels": {
+    "wellness": {
+      "display_name": "Wellness",
+      "description": "lorem ipsum",
+      "insights": {
+        "title": "",
+        "description": "",
+        "hexcode": "#C0FFEE"
+      },
+      "status": "sub-optimal",
+      "hexcode": "#E7F0FF",
+      "index": 0,
+      "score": 77,
+      "inactive_icon": "https://saht.neodocs.in/assets/img/wellness_inactive.png",
+      "panel_id": "wellness",
+      "details": {
+        "biomarker_details": [
+          {
+            "legend": {
+              "good": ": 0",
+              "low": "NA",
+              "high": "> 0"
+            },
+            "user_value_flag_text": "good",
+            "method": "dipstick",
+            "display_value": "Negative",
+            "unit": "mg/dL",
+            "date_of_test": "2023-05-15",
+            "index": 4,
+            "user_value_flag": 0,
+            "ref_ranges": {
+              "max_value": 6,
+              "min_value": 0,
+              "ub": 0,
+              "ub_ideal": 0,
+              "lb_ideal": 0,
+              "lb": 0
+            },
+            "reference_range": "Negative",
+            "display_name": "Bilirubin",
+            "estimated_value": 0,
+            "insights": {
+              "about": {
+                "heading": "Congratulations. Your urine contains no Bilirubin!",
+                "content": [
+                  "Bilirubin in your urine may indicate poor liver health.<br>But since your sample doesn't have any bilirubin, so there's nothing to worry about!"
+                ]
+              },
+              "tips": {},
+              "importance": {
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_bilirubin.svg?alt=media&token=90586453-65e3-4eaa-b990-f5b81c7c7297",
+                "heading": "Why Bilirubin levels matter?",
+                "content": [
+                  "Bilirubin is not present in the urine of healthy individuals.<br>Having high bilirubin levels consistently could be an early sign of liver damage."
+                ]
+              }
+            }
+          },
+          {
+            "ref_ranges": {
+              "max_value": 200,
+              "ub": 0,
+              "lb_ideal": 0,
+              "ub_ideal": 0,
+              "lb": 0,
+              "min_value": 0
+            },
+            "user_value_flag": 0,
+            "legend": {
+              "good": ": 0",
+              "low": "NA",
+              "high": "> 0"
+            },
+            "unit": "Ery/μL",
+            "user_value_flag_text": "good",
+            "display_name": "Blood",
+            "method": "dipstick",
+            "display_value": "0",
+            "reference_range": "Negative",
+            "index": 12,
+            "date_of_test": "2023-05-15",
+            "estimated_value": 0,
+            "insights": {
+              "about": {
+                "heading": "Congratulations! there's no blood in your sample.",
+                "content": [
+                  "Having blood in your urine can be a sign that something is wrong with your kidneys or part of your urinary tract. But there's no blood in your sample :) "
+                ]
+              },
+              "tips": {},
+              "importance": {
+                "heading": "Importance of detecting blood in urine !",
+                "content": [
+                  "Blood can appear in urine due to various diseases and infections of the kidneys or urinary tract, presence of a trauma, several medications, or a vigorous physical workout.",
+                  "Some of the underlying causes of hematuria (blood in urine) are benign, temporary states that do no lasting harm and resolve with little or no specific treatment. Some causes, however, may be critical conditions or represent a chronic condition that requires medical intervention and monitoring",
+                  "Detection of blood in urine is an early indicator of the presence of a disease or infection that may appear without any symptoms. "
+                ],
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_blood.svg?alt=media&token=06fbad9c-bea9-4f01-a5fb-d9062c616aff"
+              }
+            }
+          },
+          {
+            "date_of_test": "2023-05-15",
+            "legend": {
+              "high": "> 0",
+              "good": ": 0",
+              "low": "NA"
+            },
+            "estimated_value": 250,
+            "index": 5,
+            "unit": "mg/dL",
+            "user_value_flag": 1,
+            "ref_ranges": {
+              "lb": 0,
+              "max_value": 1000,
+              "ub": 0,
+              "lb_ideal": 0,
+              "ub_ideal": 0,
+              "min_value": 0
+            },
+            "display_value": "250 (+)",
+            "display_name": "Glucose",
+            "user_value_flag_text": "high",
+            "method": "dipstick",
+            "reference_range": "Negative",
+            "insights": {
+              "about": {
+                "heading": "Glucose is present in your urine!",
+                "content": [
+                  "If too much glucose gets into the blood, the extra glucose will be eliminated through your urine. Since the levels of glucose in your urine are high, there could be a possibility of the existence of a disorder like diabetes or kidney disease in your body. You may want to consult your doctor for the next steps!"
+                ]
+              },
+              "tips": {
+                "heading": "How to reduce glucose levels in your urine?<br><br>Manage your blood sugar levels to control the levels of glucose in your urine. Your blood sugar levels can be managed by:",
+                "content": [
+                  "<strong>1. Reducing the intake of sugar and processed foods</strong><br>Sweets and processed food are extremely rich sources of sugar. The sugar found in these foods is easily absorbed in the body which ups your blood glucose levels at a fast pace. Cutting down on these foods will be helpful in managing your blood sugar levels well.",
+                  "<strong>2. Eat a diet consisting of mostly whole foods with plenty of vegetables</strong><br>Whole foods like whole wheat, millets, apples, pears, papayas, cauliflower, raddish, lady finger, spinach, carrot etc are rich sources of fiber. Fiber slows carb digestion and sugar absorption. For these reasons, it prevents a sudden rise in blood sugar levels.",
+                  "<strong>3. Drink water and unsweetened beverages instead of soda or juice</strong><br>Drinking water regularly helps rehydrate the blood, lowers blood sugar levels, and could reduce diabetes risk.  Sugar-sweetened sodas and juices raise blood glucose, cause weight gain, and increase diabetes risk.",
+                  "<strong>4. Get daily physical activity</strong><br>Regular exercise can help you get to and maintain a moderate weight and increase insulin sensitivity. Increased insulin sensitivity means your cells are better able to use the available sugar in your bloodstream. Exercise also helps your muscles use blood sugar for energy and muscle contraction.",
+                  "<strong>5. Consult your doctor</strong><br>Management of your blood sugar levels would require your doctor's intervention and possibly appropriate medication if you are not able to manage inspite of following a good diet and exercise schedule. So never miss out on your doctor's visit if your urine is constantly high on glucose. This means you need immediate attention."
+                ]
+              },
+              "importance": {
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_glucose.svg?alt=media&token=e7e1213e-2beb-4698-ab14-e5b8f7c47c25",
+                "content": [
+                  "Approximately 46 crore people suffer from diabetes worldwide. Most cases remain undiagnosed and are only identified when the disease advances to extreme stages. Thus, timely diagnosis of diabetes becomes very important. And checking for glucose in your urine is one way to do so.",
+                  "Glycosuria (presence of glucose in your urine) only happens when there is either extremely high levels of blood glucose or any issue with your kidney function. If the blood glucose level exceeds the reabsorption capacity of the kidneys, glucose will appear in the urine.",
+                  "Additionally, certain hormonal disorders, liver disease, medications, and pregnancy could also cause high levels of glucose in your urine."
+                ],
+                "heading": "Why tracking glucose in urine is important?<br>"
+              }
+            }
+          },
+          {
+            "display_name": "Ketone",
+            "reference_range": "Negative",
+            "display_value": "Negative",
+            "user_value_flag_text": "good",
+            "index": 8,
+            "unit": "mg/dL",
+            "date_of_test": "2023-05-15",
+            "legend": {
+              "good": ": 0",
+              "low": "NA",
+              "high": "> 0"
+            },
+            "estimated_value": 0,
+            "ref_ranges": {
+              "lb": 0,
+              "ub_ideal": 0,
+              "min_value": 0,
+              "ub": 0,
+              "lb_ideal": 0,
+              "max_value": 160
+            },
+            "user_value_flag": 0,
+            "method": "dipstick",
+            "insights": {
+              "about": {
+                "content": [
+                  "Your sample has no ketones and this is completely normal for a person not following a ketogenic diet.<br>But if you are following a ketogenic diet, your normal would be to have ketones appear in your urine and you may want to consult your nutritionist for this. <br>"
+                ],
+                "heading": "There are no ketones in your urine!"
+              },
+              "tips": {},
+              "importance": {
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_ketone_a.svg?alt=media&token=db7ef979-dcaf-4220-8cef-2544063012d2",
+                "content": [
+                  "When you start with a ketogenic diet, you cut out on carbs and replace those calories with fat and some protein for energy. At this point, your body makes a metabolic shift to use ketones or ketone bodies as the main fuel instead of glucose. ",
+                  "You may want to check your ketone levels daily for a few days after starting on a keto diet to ensure that you reach nutritional ketosis. After this you may check once a week to ensure that your diet is going fine and slowly progressing to ketosis. ",
+                  "For some people, checking their ketone levels may provide a source of encouragement or motivation to stick with the diet.",
+                  "Alternatively, some people may test more frequently if they want to see how their body responds to certain foods or a change in their carb intake.",
+                  "Checking your ketones may also be an indicator of how well you're doing with intermittent fasting or time-restricted eating. ",
+                  "Keeping your body in a state of nutritional ketosis may help you improve your energy levels, reduce body fat percentage, improve brain function, reduce appetite and therefore help in weight loss. "
+                ],
+                "heading": "Why ketone levels in your urine matters?<br><br>Let's find out!"
+              }
+            }
+          },
+          {
+            "legend": {
+              "high": "> 15",
+              "low": "NA",
+              "good": "0-15"
+            },
+            "unit": "Leu/μL",
+            "ref_ranges": {
+              "max_value": 500,
+              "min_value": 0,
+              "ub": 15,
+              "lb_ideal": 0,
+              "ub_ideal": 15,
+              "lb": 0
+            },
+            "date_of_test": "2023-05-15",
+            "display_name": "Leukocytes",
+            "user_value_flag_text": "good",
+            "index": 0,
+            "method": "dipstick",
+            "reference_range": "Negative",
+            "estimated_value": 0,
+            "display_value": "Negative",
+            "user_value_flag": 0,
+            "insights": {
+              "about": {
+                "content": [
+                  "When the number of WBCs increases significantly, it may indicate the presence of a urinary tract infection (UTI). Which is absent in your case. So yay!"
+                ],
+                "heading": "Congratulations! No leukocytes (WBCs) present!"
+              },
+              "tips": {},
+              "importance": {
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_leukocytes.svg?alt=media&token=17035bf4-e3f6-4a59-8b0b-34910590ad2a",
+                "heading": "Why is it important for you to track Leucocytes?",
+                "content": [
+                  "Leukocytes are the cells of the immune system which play an important role in protecting our body against all types of infections. When there's an infection, WBCs in our body increases to fight it off. Thus a high WBC count may indicate that the immune system is working to destroy an infection.",
+                  "Similarly, high levels of WBCs in your urine can suggest that you have an infection. In this case, your body is trying to fight off an infection somewhere in the urinary tract. Usually, that means the bladder or the urethra, which is the tube that carries urine from the bladder. WBCs in the urine could also suggest a kidney infection."
+                ]
+              }
+            }
+          },
+          {
+            "estimated_value": 1,
+            "date_of_test": "2023-05-15",
+            "display_name": "Nitrite",
+            "display_value": "Positive",
+            "legend": {
+              "low": "NA",
+              "high": "> 0",
+              "good": ": 0"
+            },
+            "user_value_flag": 1,
+            "user_value_flag_text": "high",
+            "method": "dipstick",
+            "reference_range": "Negative",
+            "index": 9,
+            "ref_ranges": {
+              "ub": 0,
+              "min_value": 0,
+              "ub_ideal": 0,
+              "lb": 0,
+              "lb_ideal": 0,
+              "max_value": 1
+            },
+            "unit": "",
+            "insights": {
+              "about": {
+                "heading": "Nitrites are present",
+                "content": [
+                  "The presence of nitrites in urine could be indicative of a bacterial infection (UTI). Since your urine has nitrites, it is recommended to consult your doctor for next steps."
+                ]
+              },
+              "tips": {
+                "content": [
+                  "<strong>1. Keep yourself hydrated</strong><br>Ample amounts of water is required both during a UTI and after, to flush out the infection. Drinking at least 8 to 13 glasses of fluids a day is important. You can drink water, herbal tea, or lemon as per your liking. Avoid alcohol, sugary drinks, and caffeine, which can irritate your bladder.",
+                  "<strong>2. Urinate frequently to prevent a bladder infection</strong><br>Make sure that you always urinate as soon as you feel like you need to. Urinating flushes germs from your urinary tract system, which can speed up healing time for a UTI or prevent bladder infections in the first place. Learn forward slightly when you've finished urinating to ensure that your bladder is completely empty. After a sexual intercourse, germs can enter your urinary tract and can cause infections. Therefore it is important to urinate right after the intercourse.",
+                  "<strong>3. Maintain hygeine</strong><br>After having a bowel movement or urination, it is very important to wipe from front to back, so you don't risk getting fecal matter in your urethra. Discard the wiping paper after each wipe. Remember to wash your hands to prevent UTIs and spreading other illnesses. ",
+                  "<strong>4. Include plenty of high-fiber foods in your diet</strong><br>Fiber helps keep your bowels moving, which prevents constipation. Constipation can weaken your pelvic floor and increase your risk of developing a UTI. Eat plenty of vegetables, fruits, and whole grains, which contain fiber."
+                ],
+                "heading": "How to lower nitrites in your urine?<br><br>Let's find out!"
+              },
+              "importance": {
+                "heading": "Why nitrites in urine matter ?",
+                "content": [
+                  "Screening urine for nitrite together with WBCs provides a means for checking the presence of a UTI in your body. ",
+                  "A UTI is an infection where part of the urinary tract is affected by bacteria, most commonly E. coli. The infection can affect several parts of the urinary tract, but the most common type is a bladder infection (cystitis). ",
+                  "About 15 crore people develop a urinary tract infection every year. Detection of bacteria using the nitrite test and subsequent antibiotic therapy can prevent these serious complications.Thus, their timely check becomes very important.",
+                  "<strong>Did you know: More than 50% women experience UTI during their lifetime</strong>"
+                ],
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_nitrite.svg?alt=media&token=20db0832-6120-4fb2-a47f-3e90bfe5de12"
+              }
+            }
+          },
+          {
+            "method": "dipstick",
+            "legend": {
+              "high": "> 8",
+              "low": "< 5",
+              "good": "5-8"
+            },
+            "display_name": "pH",
+            "unit": "",
+            "user_value_flag_text": "good",
+            "reference_range": "5-8",
+            "user_value_flag": 0,
+            "estimated_value": 5.5,
+            "display_value": "5.5",
+            "index": 11,
+            "ref_ranges": {
+              "min_value": 5,
+              "ub_ideal": 8,
+              "lb": 5,
+              "lb_ideal": 5,
+              "max_value": 9,
+              "ub": 8
+            },
+            "date_of_test": "2023-05-15",
+            "insights": {
+              "about": {
+                "heading": "Your pH level is good",
+                "content": [
+                  "Well done! Your pH level is ideal. Urine pH analyzes the acidity or alkalinity of a urine sample."
+                ]
+              },
+              "tips": {},
+              "importance": {
+                "content": [
+                  "Urine pH provides valuable information about our kidney function and food habits. Our diet is the major contributor towards changes in our urine pH. Other than that, certain medications and supplements could also change our urine pH. ",
+                  "The ability of our kidneys to manipulate pH has many important functions in our body. An acidic pH could mean that there is a high intake of acidic foods like processed foods, alcohol, sugary foods and animal products with few vegetables. It can also happen in the presence of a respiratory disease. ",
+                  "On the other hand, an alkaline pH could mean that there is a high intake of foods like green vegetables, fruits, nuts, and lentils. Some bacterial infections can also turn our urine pH alkaline. Urine pH is also an important screening tool for the diagnosis of many kidney and lung disorders."
+                ],
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_ph.svg?alt=media&token=b1b944a8-ab44-4964-ba60-0a09e42e8b96",
+                "heading": "Why should you track your pH levels?"
+              }
+            }
+          },
+          {
+            "display_value": "Negative",
+            "display_name": "Protein",
+            "date_of_test": "2023-05-15",
+            "user_value_flag": 0,
+            "reference_range": "Negative",
+            "index": 3,
+            "unit": "mg/dL",
+            "estimated_value": 0,
+            "ref_ranges": {
+              "min_value": 0,
+              "ub_ideal": 0,
+              "lb_ideal": 0,
+              "max_value": 300,
+              "lb": 0,
+              "ub": 0
+            },
+            "legend": {
+              "high": "> 0",
+              "good": ": 0",
+              "low": "NA"
+            },
+            "user_value_flag_text": "good",
+            "method": "dipstick",
+            "insights": {
+              "about": {
+                "heading": "Congratulations! there's no protein in your sample",
+                "content": [
+                  "Presence of protein in your urine sample could be bad for your kidneys. But there's no protein in your urine, so all is well."
+                ]
+              },
+              "tips": {},
+              "importance": {
+                "heading": "What protein in urine means ?",
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_protein.svg?alt=media&token=7881b3fe-4586-495d-8aab-e0b157161c33",
+                "content": [
+                  "Over 10% of the population worldwide is affected by kidney disease every year, and millions die each year because it is not diagnosed on time.",
+                  "The presence of protein may be the first sign of a kidney disorder and may appear before any other clinical symptoms start showing up in the body. Thus this test provides early warning signs of an impending disease."
+                ]
+              }
+            }
+          },
+          {
+            "unit": "",
+            "display_value": "1.03",
+            "index": 7,
+            "user_value_flag_text": "high",
+            "legend": {
+              "low": "< 1.005",
+              "high": "> 1.025",
+              "good": "1.005-1.025"
+            },
+            "estimated_value": 1.03,
+            "reference_range": "1.005-1.025",
+            "ref_ranges": {
+              "lb_ideal": 1.005,
+              "ub_ideal": 1.025,
+              "max_value": 1.03,
+              "lb": 1.005,
+              "min_value": 1,
+              "ub": 1.025
+            },
+            "display_name": "Specific gravity",
+            "user_value_flag": 1,
+            "method": "dipstick",
+            "date_of_test": "2023-05-15",
+            "insights": {
+              "about": {
+                "heading": "Your sample is highly concentrated!",
+                "content": [
+                  "Need not worry! You can easily reduce the concentration on your urine by modifying your nutrient intake. Please be patient, since it could take a few days to see an improvement."
+                ]
+              },
+              "tips": {
+                "content": [
+                  "<strong>1. Drink a glass of water as soon as you wakeup</strong><br>Some people only drink milk or coffee in the morning, but adding at least one glass of water will help to increase your hydration in the morning. You can keep a water bottle beside your bed if that makes it easier to remember to drink it. Drinking water right after you wake up, will help jumpstart your metabolism as well as rehydrate you after going all night without any liquids.",
+                  "<strong>2. Drink water before you get thirsty</strong><br>When you are thirsty, your body signals that it already has a lack of fluid. To stay hydrated, you should drink water often enough to keep this from happening. As you age, your thirst receptors will become less effective at sensing your body's need for hydration, so it is a good idea to get into the habit of sipping water throughout the day. You need to drink at least 8-13 glasses (2-3 liters) of water daily.",
+                  "<strong>3. Keep a water bottle with you all day</strong><br>If you work in an office, keep a bottle on your desk and sip from it throughout the day. Set reminders on your computer or smartphone if you have trouble remembering. If your work includes a more physical job, try to find a spot to keep a water bottle where you can access it regularly or just carry it with you. ",
+                  "<strong>4. Avoid some fluids</strong><br>When you’re dehydrated, avoid caffeine and alcohol. These have dehydrating effects on the body. Beverages such as coffee, caffeinated tea, and soda should not be taken while dehydrated. You should also avoid fruit juices, as the sugar can have a dehydrating effect by increasing urination.",
+                  "<strong>5. Eat foods with a high water content</strong><br>If you are not nauseated, try eating some fruits and vegetables with a high water content. Fruits like watermelon, grapefruit, oranges, and strawberries are very high in water content. Vegetables like broccoli, cauliflower, cabbage, celery, cucumbers, eggplant, lettuce, sweet peppers, radishes, spinach, zucchini, and tomatoes also have very high water content.",
+                  "<strong>6. Drink extra water after exercising</strong><br>An additional 1-2  glasses of water is sufficient following moderate exercise, but intense exercise with excessive sweating may require a sports drink, such as Gatorade or Powerade. These beverages contain sodium, electrolytes, and carbohydrates, which will help replace what you lost through sweat.",
+                  "<strong>7. Monitor your urine as a sign of your hydration status</strong><br>In addition to drinking before you get thirsty, you should also check your urine as an indication of whether you are staying hydrated enough. People who are consuming adequate fluids will have plenty of clear, light yellow urine. On the other hand, those who are dehydrated will have less urine that is a darker yellow as it is more concentrated."
+                ],
+                "heading": "How to lower your specific gravity?<br><br>Let's find out!"
+              },
+              "importance": {
+                "content": [
+                  "Urine specific gravity is a measure of urine concentration. About 75% of our body is made up of water. Maintainence of right hydration levels throughout the day is important for many body functions like managing energy levels and mood, transfer of substances within the body, digestion, brain function, as well as weight loss. ",
+                  "We often forget to drink water or drink too much water than what is required. Thus keeping a check on your hydration levels becomes important here. Specific gravity is one way to understand whether you are hydrated enough or not. ",
+                  "Our urine contains water, minerals, and toxins that have been filtered by our kidneys. Specific gravity gives you a measure of how much substances vs. water is there in your urine, or how concentrate/diluted your urine is."
+                ],
+                "heading": "Why is Specific Gravity important to track?",
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_specific_gravity.svg?alt=media&token=8384be63-f4fb-4aab-b62e-3eb2edb4cbdd"
+              }
+            }
+          },
+          {
+            "legend": {
+              "good": "0.2-1",
+              "low": "< 0.2",
+              "high": "> 1"
+            },
+            "reference_range": "0.2-1.0 mg/dL",
+            "date_of_test": "2023-05-15",
+            "display_value": "0.2",
+            "method": "dipstick",
+            "estimated_value": 0.2,
+            "user_value_flag": 0,
+            "display_name": "Urobilinogen",
+            "index": 1,
+            "user_value_flag_text": "good",
+            "unit": "mg/dL",
+            "ref_ranges": {
+              "min_value": 0.2,
+              "ub": 1,
+              "lb_ideal": 0.2,
+              "max_value": 12,
+              "lb": 0.2,
+              "ub_ideal": 1
+            },
+            "insights": {
+              "about": {
+                "heading": "The levels of Urobilinogen in your urine are just right!",
+                "content": [
+                  "Any highs or lows in urobilinogen maybe indicative of poor liver health. But the levels of urobilinogen in your sample are ideal. So yay!"
+                ]
+              },
+              "tips": {},
+              "importance": {
+                "heading": "Why tracking urobilinogen in urine matters?",
+                "url": "https://firebasestorage.googleapis.com/v0/b/neodocs-8d6cd.appspot.com/o/Assets%2Fbiomarker_importance%2Furine_ds_urobilinogen.svg?alt=media&token=4c0e0758-0afc-4adb-ba47-c99d2fdf7fba",
+                "content": [
+                  "Liver disease accounts for approximately 20 Lakh deaths per year worldwide. Majority of liver diseases are never diagnosed on time. This test for urobilinogen may help predict the presence of a liver disease existing without any symptoms. Urobilinogen is an indicator of:",
+                  "<strong>1) Hemolytic Anemia:</strong><br>A blood disorder that occurs when your RBCs are destroyed faster than they can be replaced",
+                  "<strong>2) Pernicious Anemia:</strong><br>The body can't make enough healthy RBCs because it doesn't have enough vitamin B12"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "biomarker_name": [
+        "urine_ds_ascorbate",
+        "urine_ds_bilirubin",
+        "urine_ds_blood",
+        "urine_ds_calcium",
+        "urine_ds_creatinine",
+        "urine_ds_glucose",
+        "urine_ds_ketone_a",
+        "urine_ds_leukocytes",
+        "urine_ds_microalbumin",
+        "urine_ds_nitrite",
+        "urine_ds_ph",
+        "urine_ds_protein",
+        "urine_ds_specific_gravity",
+        "urine_ds_urobilinogen",
+        "urine_ds_magnesium",
+        "urine_ds_acr"
+      ],
+      "sceince": [],
+      "inactive_icon_dark": "https://saht.neodocs.in/assets/img/wellness_inactive.png",
+      "active_icon": "ic_wellness.png"
+    }
+  }
+}
