@@ -69,7 +69,6 @@ class PdfApi {
  -keep class com.shockwave.**
  -keepclassmembers class com.shockwave.** { *; }
 ```  add above line in file 
-    after that change in app/buildgradle 
 
 ```
  buildTypes {
