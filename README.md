@@ -15,25 +15,25 @@ If any one have any solution please let me know.
 
 1. add pdfgoole font if you are getting any font exception beacuse bydefualt pdf follows or use helvicta font wichh not supports unicode 
 also you can add your custom font style 
-
+```
    final theme = ThemeData.withFont(
       base: Font.ttf(await rootBundle.load("assets/fonts/Rubik-Regular.ttf")),
       bold: Font.ttf(await rootBundle.load("assets/fonts/Rubik-Regular.ttf")),
     );
-
+```
   just add below theme in Document(theme:theme);
 you can also add this the to your multipage Object 
-
+```
 Multipage(theme: theme 
 // rest code 
 );
-
+```
 2. after these if your are useing open file package to open pdf 
 
 then refer this solusion [https://stackoverflow.com/questions/69017428/flutter-open-file-dart-not-opening-pdf-file] 
 
                                         or use this code  
-
+```
 class PdfApi {
   Future<File> saveDocument({
     required String name,
@@ -62,5 +62,5 @@ class PdfApi {
     await OpenFile.open(url);
   }
 }
-
+```
   
