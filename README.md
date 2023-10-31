@@ -65,10 +65,12 @@ class PdfApi {
 ```
 3 . add progaurd rule file in android/app  
                     and
-'''
- -keep class com.shockwave.**
+```
+-keep class com.shockwave.**
  -keepclassmembers class com.shockwave.** { *; }
-```  add above line in file 
+ 
+```  
+add above line in file 
 
 ```
  buildTypes {
@@ -79,7 +81,8 @@ class PdfApi {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-```add proguardFiles rule
+```
+add proguardFiles rule
 
 
   
