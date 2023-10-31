@@ -68,10 +68,8 @@ class PdfApi {
 '''
  -keep class com.shockwave.**
  -keepclassmembers class com.shockwave.** { *; }
-```
-add above line in file 
-
-after that change in app/buildgradle 
+```  add above line in file 
+    after that change in app/buildgradle 
 
 ```
  buildTypes {
@@ -82,8 +80,7 @@ after that change in app/buildgradle
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-```
-add proguardFiles rule
+```add proguardFiles rule
 
 
   
