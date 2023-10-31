@@ -10,9 +10,16 @@ class PdfApi {
     required Document pdf,
   }) async {
     final bytes = await pdf.save();
+    Directory dir;
+    File file;
 
-    final dir = await getApplicationDocumentsDirectory();
-    final file = File('${dir.path}/$name');
+    if (Platform.isAndroid) {
+      final String path = (await getExternalStorageDirectory())!.path;
+      file = File('$path/$name');
+    } else {
+      dir = await getApplicationDocumentsDirectory();
+      file = File('${dir.path}/$name');
+    }
 
     await file.writeAsBytes(bytes);
 
