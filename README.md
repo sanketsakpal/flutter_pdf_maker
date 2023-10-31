@@ -63,4 +63,27 @@ class PdfApi {
   }
 }
 ```
+3 . add progaurd rule file in android/app  
+                    and
+'''
+ -keep class com.shockwave.**
+ -keepclassmembers class com.shockwave.** { *; }
+```
+add above line in file 
+
+after that change in app/buildgradle 
+
+```
+ buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+```
+add proguardFiles rule
+
+
   
